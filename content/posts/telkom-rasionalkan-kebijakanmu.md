@@ -49,6 +49,7 @@ Hei anda pembuat kebijakan di Telkom, sepertinya anda perlu belajar dari FirstMe
 
 Seperti yang sudah disebutkan di atas, saya juga pelanggan indihome. Paketan yang saya gunakan adalah Learning From Home. Paketan murah? Iya betul, sebulan hanya membayar Rp 200.000. `Yaelah bro ada harga = ada kualitas.` Pasti opini seperti itu akan muncul, sekali lagi ini bukan masalah harga yang dibayarkan tetapi ada logika yang perlu diluruskan. Anda mau tau seberapa tersiksanya saya tiap bulan karena kebijakan FUP Telkom? Silahkan simak gambar dibawah ini.
 
+![](/FUP_LFH.png)
 
 Miris bukan? 
 - Saat saya melewati FUP1 (100GB), maka bandwith saya tersisa 50% dari 10Mbps (625KBps). 
