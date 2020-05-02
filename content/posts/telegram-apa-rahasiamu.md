@@ -38,7 +38,7 @@ Pada tahun 2018, Durov mendapatkan suntikan dana yang besar senilai $1.7 milyar.
 ### Pengeluaran
 Sekarang kita akan memulai untuk melakukan perhitungan matematika sederhana untuk meng-estimasi total pengeluaran Telegram dalam 1 bulan, sebagai berikut:
 
-1. Unlimited Storage. Jika melihat [pricing yang terdapat di Google Suite](https://gsuite.google.com/pricing.html), untuk mendapatkan Drive Unlimited `minimal` memilih plan `$12/bulan`. Karena di dalam plan itu terdapat layanan lainnya selain drive unlimited, jadi kita dapat mengasumsikan jika hanya drive unlimitednya saja maka biayanya menjadi `$1/bulan`.
+1. __Unlimited Storage.__ Jika melihat [pricing yang terdapat di Google Suite](https://gsuite.google.com/pricing.html), untuk mendapatkan Drive Unlimited `minimal` memilih plan `$12/bulan`. Karena di dalam plan itu terdapat layanan lainnya selain drive unlimited, jadi kita dapat mengasumsikan jika hanya drive unlimitednya saja maka biayanya menjadi `$1/bulan`.
 
 ```
 Biaya Unlimited Storage Per User
@@ -50,7 +50,7 @@ Angka yang fantastis bukan?
 Ingat, ini hanya baru dari unlimited storagenya.
 ```
 
-2. Gaji Pegawai. Menurut [Craft](https://craft.co/telegram-messenger), total pegawai yang dimiliki Telegram adalah 351 orang (Per Desember 2019). Kita asumsikan rata - rata gaji per bulan masing - masing adalah Rp. 5.000.000,-
+2. __Gaji Pegawai.__ Menurut [Craft](https://craft.co/telegram-messenger), total pegawai yang dimiliki Telegram adalah 351 orang (Per Desember 2019). Kita asumsikan rata - rata gaji per bulan masing - masing adalah Rp. 5.000.000,-
 ```
 Gaji 351 Pegawai Telegram
 Total = Total Pegawai x Asumsi Gaji/bulan
@@ -60,7 +60,7 @@ Total = Rp 1.755.000.000,-/bulan
 Jika diubah ke dalam mata uang dollar ($1 = Rp 10.000,-) menjadi $175.500/bulan.
 ```
 
-3. Data Center. Menurut [Om Sadal](https://t.me/tentangtelegram/119382), Telegram memiliki DC sebanyak 5 buah. Dikarenakan sulitnya mencari angka pasti mengenai total pengeluaran DC, saya menggunakan data dari [James Hamilton](https://perspectives.mvdirona.com/2010/09/overall-data-center-costs/) yang mengatakan bahwa perkiraan pengeluaran per bulan untuk DC yang ideal adalah $3,5 juta/bulan. Sayangnya data itu dibuat sudah dari tahun 2010 sehingga pasti ada pergeseran nominal, bisa naik maupun turun.
+3. __Data Center.__ Menurut [Om Sadal](https://t.me/tentangtelegram/119382), Telegram memiliki DC sebanyak 5 buah. Dikarenakan sulitnya mencari angka pasti mengenai total pengeluaran DC, saya menggunakan data dari [James Hamilton](https://perspectives.mvdirona.com/2010/09/overall-data-center-costs/) yang mengatakan bahwa perkiraan pengeluaran per bulan untuk DC yang ideal adalah $3,5 juta/bulan. Sayangnya data itu dibuat sudah dari tahun 2010 sehingga pasti ada pergeseran nominal, bisa naik maupun turun.
 ```
 Data Center Telegram
 Total = Total DC x Biaya/bulan
