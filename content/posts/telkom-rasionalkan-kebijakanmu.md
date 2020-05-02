@@ -38,6 +38,24 @@ Sebelum melanjutkan pembahasan yang mendalam, saya ingin mengapresiasi Telkom Gr
 
 Jika kita melihat di forum / group / surat pembaca / web seperti [Media Konsumen](mediakonsumen.com), banyak sekali yang mengeluhkan layanan Telkom. Mulai dari indihome hingga Telkomselnya. Ada yang mengeluhkan lambatnya internet, sulit saat ingin memasang indihome, jawaban CS yang membingungkan, kebijakan yang sering berubah - ubah, sistem FUP yang merugikan konsumen dan lainnya. Saya tidak akan membahas semuanya. Saya hanya akan membahas 2 hal yang saya alami juga yaitu sistem FUP yang merugikan konsumen dan kebijakan yang sering berubah - ubah.
 
+Sebelum melanjutkan membaca, saya ingin memberikan info tambahan guna memahami tulisan berikutnya. Angka Mbps yang terdapat di brosur / website indihome itu satuannya adalah bit atau `b kecil`. Sedangkan satuan yang kita pakai dalam kehidupan sehari - hari adalah byte atau `B besar.` 
+
+Apa maksudnya satuan yang kita pakai dalam kehidupan sehari - hari? Jika kalian menggunakan aplikasi seperti IDM di Windows / net speed indicator di Android, rata - rata aplikasi itu menggunakan satuan byte atau `B besar.` Lalu bagaimana cara mengkonversi `bit` ke `byte`? Mudah saya tinggal dibagi dengan 8. Contohnya adalah ketika saya berlangganan 10Mbps maka konversinya menjadi:
+```
+Cara 1
+10Mbps : 8 = 1.25MBps
+
+Cara 2
+10.000Kbps : 8 = 1.250KBps
+
+Catatan:
+- 1MB/b = 1000KB/b
+Dibaca: 1 Mega byte / bit sama dengan 1000 Kilo byte / bit.
+
+- MB/b > KB/b
+Dibaca: Mega byte / bit lebih besar daripada Kilo byte / bit 
+```
+
 ### Sistem FUP Yang Merugikan Konsumen
 Jika kita membaca kebijakan Telkom tentang [Fair Usage Policy (FUP)](https://www.indihome.co.id/pusat-bantuan/indipedia/detail/Fair+Usage+Policy+%28FUP%29), memang betul kebijakan FUP adalah syarat yang tidak dapat dipisahkan saat kita ingin berlangganan indihome dan Telkom berhak mengubah ketentuan kebijakan FUP kapanpun mereka mau. 
 
@@ -47,13 +65,13 @@ Hei anda pembuat kebijakan di Telkom, sepertinya anda perlu belajar dari FirstMe
 
 ![](/FUP_FM.png)
 
-Seperti yang sudah disebutkan di atas, saya juga pelanggan indihome. Paketan yang saya gunakan adalah Learning From Home. Paketan murah? Iya betul, sebulan hanya membayar Rp 200.000. `Yaelah bro ada harga = ada kualitas.` Pasti opini seperti itu akan muncul, sekali lagi ini bukan masalah harga yang dibayarkan tetapi ada logika yang perlu diluruskan. Anda mau tau seberapa tersiksanya saya tiap bulan karena kebijakan FUP Telkom? Silahkan simak gambar dibawah ini.
+Seperti yang sudah disebutkan di atas, saya juga pelanggan indihome. Paketan yang saya gunakan adalah Learning From Home 2P 10Mbps. Paketan murah? Iya betul, sebulan hanya membayar Rp 200.000. `Yaelah bro ada harga = ada kualitas.` Pasti opini seperti itu akan muncul, sekali lagi ini bukan masalah harga yang dibayarkan tetapi ada logika yang perlu diluruskan. Anda mau tau seberapa tersiksanya saya tiap bulan karena kebijakan FUP Telkom? Silahkan simak gambar dibawah ini.
 
 ![](/FUP_LFH.png)
 
 Miris bukan? 
-- Saat saya melewati FUP1 (100GB), maka bandwith saya tersisa 50% dari 10Mbps (625KBps). 
-- Yang parahnya, saat melewati FUP2 (200GB), bandwith saya hanya tersisa 30% dari 10Mbps (375KBps). 
+- Saat saya melewati FUP1 (100GB), maka bandwith saya tersisa 50% dari 10Mbps yaitu 625KBps. 
+- Yang parahnya, saat melewati FUP2 (200GB), bandwith saya hanya tersisa 30% dari 10Mbps yaitu 375KBps. 
 
 Hal ini pasti juga dialami oleh pelanggan indihome 10Mbps lainnya sejak bulan April 2020. Saya tidak tahu apakah ini kebijakan FUP selama pandemi corona / akan diubah lagi skema persenannya. Dan setelah melihat gambar diatas, akan ada 2 pertanyaan yang muncul yaitu:
 1. Pelanggan indihome lainnya = Eh apa itu? Dapet darimana grafik seperti itu?
@@ -67,7 +85,7 @@ Anda mau yang lebih miris? Saya mempunyai kenalan yang memasang indihome 300Mbps
 
 ![](/300.png)
 
-Memang betul bahwa 20% dari 300Mbps (7,5MBps) masih sangat besar. Tetapi apakah masuk akal pelanggan membayar penuh sebesar 3 juta sedangkan hanya mendapatkan 7,5MBps setelah penggunaan melewati 4TB?
+Memang betul bahwa 20% dari 300Mbps masih sangat besar yaitu 7.5MBps. Tetapi apakah masuk akal pelanggan membayar penuh sebesar 3 juta sedangkan hanya mendapatkan 7.5MBps setelah penggunaan melewati 4TB?
 
 Kritik selanjutnya adalah tidak adanya transparansi tentang besaran FUP di brosur paket / website [indihome](https://www.indihome.co.id/). Saya sadar betul jika anda melakukan itu, maka kemungkinan angka penjualan anda akan menurun karena pelanggan merasa dirugikan / ragu / dan lainnya. Seingat saya Telkom sempat melakukan hal itu tetapi tidak tahu mengapa halaman tentang detail FUP sudah menghilang dari websitenya.
 
@@ -83,7 +101,7 @@ Pada tanggal 24 Februari 2020, saya sedang ada di kota Semarang dan tinggal di r
 
 ![](/FUP_24Feb.png)
 
-Pada tanggal 27 Februari 2020, pagi hari saya mencoba melakukan download file dan kaget bercampur senang bisa mendapatkan speed sebesar 1,3MBps. Tetapi setelah saya berpikir ulang, seharusnya FUP kan di-reset per tanggal 1 tiap bulannya, ini belum tanggal 1 tetapi kenapa sudah kereset? Lalu saya tanya ke kenalan internal Telkom untuk memastikan internet yang saya gunakan FUP / tidak. Ternyata masih FUP. Aneh bukan? FUP pada waktu itu hanya dipotong 40% dari 10Mbps, jadi seharusnya saya hanya bisa mendapatkan maksimal 750KBps.
+Pada tanggal 27 Februari 2020, pagi hari saya mencoba melakukan download file dan kaget bercampur senang bisa mendapatkan speed sebesar 1.3MBps. Tetapi setelah saya berpikir ulang, seharusnya FUP kan di-reset per tanggal 1 tiap bulannya, ini belum tanggal 1 tetapi kenapa sudah kereset? Lalu saya tanya ke kenalan internal Telkom untuk memastikan internet yang saya gunakan FUP / tidak. Ternyata masih FUP. Aneh bukan? FUP pada waktu itu hanya dipotong 40% dari 10Mbps, jadi seharusnya saya hanya bisa mendapatkan maksimal 750KBps.
 
 ![](/FUP_27Feb.png)
 
